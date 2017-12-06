@@ -1,0 +1,21 @@
+{
+    "parser"  : "babel-eslint",
+    "extends" : [
+      "standard",
+      "standard-react"
+    ],
+    "plugins" : [
+      "react"
+    ],
+    "env"     : {
+      "browser" : true
+    },
+    "rules": {
+      "no-extra-semi": "error",
+      "semi" :"off",
+      "max-len": [2, 120, 2],
+      "no-trailing-spaces" : 2,
+      "space-before-function-paren" : 1
+    }
+  }
+  
